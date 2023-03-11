@@ -1,8 +1,9 @@
-- 👋 Hi, I’m @youngmind01
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ... @ prominent002@gmail.com / twitter- PreciousP_1
+- 👋 Hi, I’m Promise
+- 👀 I’m interested in changing lives
+- 🌱 I’m currently learning myself
+- 💞️ I’m looking to collaborate on DevOps project
+- 📫 How to reach me ... @ prominent002@gmail.com / twitter- PreciousP_1 / linkedIn - www.linkedin.com/in/iamimeh
+
 
 <!---
 youngmind01/youngmind01 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
