@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Promise
 - 👀 I’m interested in changing lives
-- 🌱 I’m currently learning myself
-- 💞️ I’m looking to collaborate on DevOps project
+- 🌱 I’m currently learning the world
+- 💞️ I’m looking to collaborate on DevOps project [Infrastructure, CI/CD, Automation]
 - 📫 How to reach me ... @ prominent002@gmail.com / twitter- PreciousP_1 / linkedIn - www.linkedin.com/in/iamimeh
 
 
