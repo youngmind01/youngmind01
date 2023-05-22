@@ -11,7 +11,7 @@
     </a>
     
     <a href="https://https//youngmind01.medium.com/">
-         <img src="https://img.shields.io/badge/Medium-blue?style=flat-square&logo=Medium" alt="Medium">
+         <img src="https://img.shields.io/badge/medium-blue?style=flat-square&logo=medium" alt="Medium">
     </a>
    
     <a href="https://stepik.org/users/108517510">
