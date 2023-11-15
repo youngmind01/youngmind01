@@ -1,0 +1,38 @@
+CREATE TABLE [dbo].[EJournals](
+    [Id] [bigint] IDENTITY(1,1) NOT NULL,
+    [Date] [nvarchar](50) NOT NULL,
+    [EntryDate] [datetime] NOT NULL,
+    [Time] [nvarchar](50) NOT NULL,
+    [TerminalId] [nvarchar](50) NOT NULL,
+    [Pan] [nvarchar](50) NOT NULL,
+    [Stan] [nvarchar](50) NOT NULL,
+    [TransactionType] [nvarchar](20) NOT NULL,
+    [CurrencyCode] [nvarchar](5) NULL,
+    [Amount] [nvarchar](50) NOT NULL,
+    [Surcharge] [nvarchar](50) NULL,
+    [FromAccount] [nvarchar](50) NULL,
+    [ToAccount] [nvarchar](28) NULL,
+    [LedgeBal] [nvarchar](50) NULL,
+    [AvailBal] [nvarchar](50) NULL,
+    [Comment] [nvarchar](500) NULL,
+    [CashTaken] [nvarchar](50) NULL,
+    [Error] [nvarchar](500) NULL,
+    [TransactonAmount] [decimal](18, 3) NULL,
+    [TransactionDate] [nvarchar](25) NULL,
+    [Status] [nvarchar](500) NOT NULL,
+    [DataSource] [nvarchar](25) NULL,
+    [RRN] [nvarchar](12) NULL,
+ CONSTRAINT [PK_EJournals] PRIMARY KEY CLUSTERED
+(
+    [Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+ CONSTRAINT [IX_EJournals] UNIQUE NONCLUSTERED
+(
+    [TerminalId] ASC,
+    [Pan] ASC,
+    [Stan] ASC,
+    [Date] ASC,
+    [Time] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
